@@ -1,0 +1,35 @@
+.clearfix::before,
+.clearfix::after{
+  content:'';
+  display:table;
+  clear:both;
+}
+
+img{
+  border:0;
+}
+
+.container{
+  width: 1226px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.module3-left{
+  width: 234px;
+  float: left;
+  margin-left:14px;
+  min-height: 1px;
+}
+
+.module3-right{
+  width: 978px;
+  float: left;
+  margin-left:14px;
+  min-height: 1px;
+}
+
+.row{
+  margin-left:-14px;
+}
+
